@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #5e3a16;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.infos {
+  width: 100%;
+  max-width: 360px;
+  text-align: center;
+}
+
+.logo1 {
+  margin-bottom: 40px;
+}
+
+.logo {
+  width: 225px;
+  height: auto;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login input {
+  padding: 14px 20px;
+  border-radius: 30px;
+  border: 2px solid #7a4116;
+  font-size: 16px;
+  transition: box-shadow 0.3s ease;
+  outline: none;
+}
+
+.entrar {
+  font-size: 14px;
+  margin-top: -10px;
+  color: #4a2a0d;
+}
+
+.cadastrar {
+  color: #a05921;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.login2 {
+  background-color: #7a4116;
+  border: none;
+  padding: 14px;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgb(122 65 22 / 0.5);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
